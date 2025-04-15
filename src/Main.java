@@ -20,6 +20,13 @@ public class Main {
             //creating statement
             Statement statement = connection.createStatement();
 
+// Creating table 
+//String createTableSQL = "CREATE TABLE IF NOT EXISTS employee ("
+		                + "id INT PRIMARY KEY, "
+		                + "name VARCHAR(50), "
+		                + "department VARCHAR(30), "
+		                + "salary DOUBLE)";
+
             //inserting data into table
 //            String query = String.format("INSERT INTO students (name,age,marks) VALUES ('%s',%o,%f)", "Rahul",22,65.2);
 
